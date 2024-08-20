@@ -1,4 +1,7 @@
-theme_alyssa <- function(){
+# Custom ecogen lab theme -- run this code before making any figures so you can add this in as the theme
+# This is standard for journal submission and what Bonnie likes!
+
+theme_ecogen <- function(){
   theme_classic()+
     theme(axis.title = element_text(size = 16), 
           axis.text.x = element_text(size=14, color="black"), 
